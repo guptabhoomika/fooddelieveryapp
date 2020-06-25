@@ -63,7 +63,7 @@ class CustomAppBar extends StatelessWidget {
             child: Text("0"),
             decoration: BoxDecoration(
               color: Colors.yellow[800],
-              borderRadius: BorderRadius.circular(20)
+              borderRadius : BorderRadius.circular(20)
             ),
 
           )
