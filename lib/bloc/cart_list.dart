@@ -1,6 +1,6 @@
 
 import 'package:bloc_pattern/bloc_pattern.dart';
-import 'package:fooddelieveryapp/bloc/provider.dart';
+import '../bloc/provider.dart';
 import '../fooditem.dart';
 import 'package:rxdart/rxdart.dart';
 class CartListBloc extends BlocBase{

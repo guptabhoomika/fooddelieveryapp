@@ -38,7 +38,37 @@ class Home extends StatelessWidget {
 class Firsthalf extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.fromLTRB(35,25, 0, 0),
+      child: Column(
+        children: [
+          CustomAppBar()
+        ],
+      ),
+      
+    );
+  }
+}
+class CustomAppBar extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.only(bottom: 15),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Icon(Icons.menu),
+          Container(
+            padding: EdgeInsets.all(15),
+            child: Text("0"),
+            decoration: BoxDecoration(
+              color: Colors.yellow[800],
+              borderRadius: BorderRadius.circular(20)
+            ),
+
+          )
+        ],
+      ),
       
     );
   }
